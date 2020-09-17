@@ -10,7 +10,7 @@ app.get('/', (req, res) => {
 })
 
 
-server.listen(3030, () => console.log('server is up'));
+server.listen(process.env.PORT || 3030);
 
 
 
